@@ -213,11 +213,13 @@
 .link {
 	color: white;
 	text-decoration: none;
+	transition: color 0.5s ease;
 }
 
 .link:hover {
-	color: white;
+	color: lightgrey;
 	text-decoration: none;
+	transition: color 0.5s ease;
 }
 
 /* Header */
