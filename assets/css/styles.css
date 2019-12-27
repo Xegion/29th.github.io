@@ -1439,7 +1439,7 @@ li a:hover:after {
 	position: absolute;
 	top: 20vh;
 	width: 100%;
-	display: none;
+	/*display: none;*/
 }
 
 #about_back_link {
