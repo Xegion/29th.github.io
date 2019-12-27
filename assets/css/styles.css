@@ -1807,7 +1807,7 @@ li a:hover:after {
 	padding-left: 2vh;
 	padding-right: 2vh;
 	background-color: #42443a;
-	display: none;
+	/*display: none;*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -1925,6 +1925,7 @@ li a:hover:after {
 	padding-bottom: 1vh;
 }
 
+/*
 #about_introduction {}
 
 #about_realism {
@@ -1975,6 +1976,7 @@ li a:hover:after {
 	padding-bottom: 1vh;
 	width: 99.5%;
 }
+*/
 
 /* Enlist */
 
