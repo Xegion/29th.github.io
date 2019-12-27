@@ -3091,7 +3091,7 @@ footer {
 .back-bottom-bottom {
 	width: max-content;
 	color: white;
-	display: none;
+	/*display: none;*/
 	font-size: 2.5vh;
 	padding-top: 6vh;
 	transition: color 0.5s ease;
