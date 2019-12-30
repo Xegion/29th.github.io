@@ -94,22 +94,206 @@
 	<a id="twitch_link" title="Twitch" href="https://www.twitch.tv/29thinfantrydivision" target="_blank"><span class="fa fa-twitch"></span></a>
 	<a id="about_link" title="Information" onclick="document.getElementById('stats_info_popup').style.display = 'block'; document.getElementById('popup_blur').style.display = 'block';" target="_blank"><span class="fa fa-info"></span></a>
 </div>
-<?php
-    $group = simplexml_load_string(file_get_contents('https://steamcommunity.com/groups/' . '29thid' . '/memberslistxml/?xml=1'));
-?>
 <span class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
 	<span id="popup_blur">
 	</span>
 	<div id="stats_info_popup" class="animated zoomIn">
-		<p id="steam_group_members_title">Steam Group</p>
-		<p id="steam_group_members"><?php echo $group->groupDetails->memberCount ?></p>
+		<p id="steam_group_members_title">Personnel</p>
+		<p id="steam_group_members"><span class="timer count-number" data-to="400" data-speed="2500"></span>+</p>
 		<p id="personnel_title">Registered</p>
-		<p id="personnel_count">20000+</p>
+		<p id="personnel_count"><span class="timer count-number-two" data-to="20000" data-speed="2500"></span>+</p>
 		<p id="about_popup_title"><b>Information</b></p>
 		<p id="about_popup_text">The 29th Infantry Division is a realism unit spread throughout multiple games in multiple time periods. Each game is supported separately by different companies while serving under the same Battalion so that all games and soldiers function individually and as all whole.</p>
 		<p id="about_popup_close" onclick="document.getElementById('stats_info_popup').style.display = 'none'; document.getElementById('popup_blur').style.display = 'none';">x</p>
 	</div>
 </span>
+<script>
+	function count() {
+		(function ($) {
+			$.fn.countTo = function (options) {
+				options = options || {};
+				
+				return $(this).each(function () {
+					var settings = $.extend({}, $.fn.countTo.defaults, {
+						from:            $(this).data('from'),
+						to:              $(this).data('to'),
+						speed:           $(this).data('speed'),
+						refreshInterval: $(this).data('refresh-interval'),
+						decimals:        $(this).data('decimals')
+					}, options);
+					
+					var loops = Math.ceil(settings.speed / settings.refreshInterval),
+						increment = (settings.to - settings.from) / loops;
+					
+					var self = this,
+						$self = $(this),
+						loopCount = 0,
+						value = settings.from,
+						data = $self.data('countTo') || {};
+					
+					$self.data('countTo', data);
+					
+					if (data.interval) {
+						clearInterval(data.interval);
+					}
+					data.interval = setInterval(updateTimer, settings.refreshInterval);
+					
+					render(value);
+					
+					function updateTimer() {
+						value += increment;
+						loopCount++;
+						
+						render(value);
+						
+						if (typeof(settings.onUpdate) == 'function') {
+							settings.onUpdate.call(self, value);
+						}
+						
+						if (loopCount >= loops) {
+							$self.removeData('countTo');
+							clearInterval(data.interval);
+							value = settings.to;
+							
+							if (typeof(settings.onComplete) == 'function') {
+								settings.onComplete.call(self, value);
+							}
+						}
+					}
+					
+					function render(value) {
+						var formattedValue = settings.formatter.call(self, value, settings);
+						$self.html(formattedValue);
+					}
+				});
+			};
+			
+			$.fn.countTo.defaults = {
+				from: 0,               // the number the element should start at
+				to: 0,                 // the number the element should end at
+				speed: 1000,           // how long it should take to count between the target numbers
+				refreshInterval: 100,  // how often the element should be updated
+				decimals: 0,           // the number of decimal places to show
+				formatter: formatter,  // handler for formatting the value before rendering
+				onUpdate: null,        // callback method for every time the element is updated
+				onComplete: null       // callback method for when the element finishes updating
+			};
+			
+			function formatter(value, settings) {
+				return value.toFixed(settings.decimals);
+			}
+		}(jQuery));
+
+		jQuery(function ($) {
+		  $('.count-number').data('countToOptions', {
+			formatter: function (value, options) {
+			  return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+			}
+		  });
+		  
+		  $('.timer').each(count);  
+		  
+		  function count(options) {
+			var $this = $(this);
+			options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+			$this.countTo(options);
+		  }
+		});
+	}
+
+	function count_two() {
+		(function ($) {
+			$.fn.countTo = function (options) {
+				options = options || {};
+				
+				return $(this).each(function () {
+					var settings = $.extend({}, $.fn.countTo.defaults, {
+						from:            $(this).data('from'),
+						to:              $(this).data('to'),
+						speed:           $(this).data('speed'),
+						refreshInterval: $(this).data('refresh-interval'),
+						decimals:        $(this).data('decimals')
+					}, options);
+					
+					var loops = Math.ceil(settings.speed / settings.refreshInterval),
+						increment = (settings.to - settings.from) / loops;
+					
+					var self = this,
+						$self = $(this),
+						loopCount = 0,
+						value = settings.from,
+						data = $self.data('countTo') || {};
+					
+					$self.data('countTo', data);
+					
+					if (data.interval) {
+						clearInterval(data.interval);
+					}
+					data.interval = setInterval(updateTimer, settings.refreshInterval);
+					
+					render(value);
+					
+					function updateTimer() {
+						value += increment;
+						loopCount++;
+						
+						render(value);
+						
+						if (typeof(settings.onUpdate) == 'function') {
+							settings.onUpdate.call(self, value);
+						}
+						
+						if (loopCount >= loops) {
+							$self.removeData('countTo');
+							clearInterval(data.interval);
+							value = settings.to;
+							
+							if (typeof(settings.onComplete) == 'function') {
+								settings.onComplete.call(self, value);
+							}
+						}
+					}
+					
+					function render(value) {
+						var formattedValue = settings.formatter.call(self, value, settings);
+						$self.html(formattedValue);
+					}
+				});
+			};
+			
+			$.fn.countTo.defaults = {
+				from: 0,               // the number the element should start at
+				to: 0,                 // the number the element should end at
+				speed: 1000,           // how long it should take to count between the target numbers
+				refreshInterval: 100,  // how often the element should be updated
+				decimals: 0,           // the number of decimal places to show
+				formatter: formatter,  // handler for formatting the value before rendering
+				onUpdate: null,        // callback method for every time the element is updated
+				onComplete: null       // callback method for when the element finishes updating
+			};
+			
+			function formatter(value, settings) {
+				return value.toFixed(settings.decimals);
+			}
+		}(jQuery));
+
+		jQuery(function ($) {
+		  $('.count-number-two').data('countToOptions', {
+			formatter: function (value, options) {
+			  return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+			}
+		  });
+		  
+		  $('.timer').each(count);  
+		  
+		  function count(options) {
+			var $this = $(this);
+			options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+			$this.countTo(options);
+		  }
+		});
+	}
+</script>
 <div id="header_small" class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
 	<p id="menu" onclick="document.getElementById('mobile_dropdown').style.height = '350px'; document.getElementById('menu').style.display = 'none'; document.getElementById('menu_two').style.display = 'flex'">MENU</p>
 	<p id="menu_two" onclick="document.getElementById('mobile_dropdown').style.height = '0vh'; document.getElementById('menu').style.display = 'flex'; document.getElementById('menu_two').style.display = 'none'">MENU</p>
