@@ -3223,8 +3223,8 @@ footer {
 #squad_servers_two_small:hover {}
 
 #battlemetrics_small {
-	margin-top: 2vh;
-	margin-bottom: 2vh;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 	margin-left: 10vw;
 	margin-right: 10vw;
 	padding-left: .75vw;
