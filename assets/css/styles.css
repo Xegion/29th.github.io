@@ -2181,8 +2181,8 @@ li a:hover:after {
 
 #arma_servers {
 	background-color: #353535;
-	margin-left: 15vw;
-	margin-right: 15vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	margin-top: 5vh;
 	height: 8vh;
 	transition: height 0.5s ease;
@@ -2211,8 +2211,8 @@ li a:hover:after {
 #rs_servers {
 	background-color: #353535;
 	border-bottom: solid 1px grey;
-	margin-left: 15vw;
-	margin-right: 15vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	margin-top: 1vh;
 	height: 8vh;
 	transition: height 0.5s ease;
@@ -2241,8 +2241,8 @@ li a:hover:after {
 #squad_servers {
 	background-color: #353535;
 	border-bottom: solid 1px grey;
-	margin-left: 15vw;
-	margin-right: 15vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	margin-top: 1vh;
 	height: 8vh;
 	transition: height 0.5s ease;
