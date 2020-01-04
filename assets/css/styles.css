@@ -1991,6 +1991,10 @@ li a:hover:after {
 	padding-bottom: 1vh;
 }
 
+#rank_image {
+	width: 70px;
+}
+
 /*
 #about_introduction {}
 
