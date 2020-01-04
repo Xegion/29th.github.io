@@ -1933,9 +1933,11 @@ li a:hover:after {
 	margin: 0;
 	margin-left: 130px;
 	margin-top: -10px;
-	margin-bottom: 100px;
 	padding-top: 1vh;
-	padding-bottom: 1vh;
+}
+
+#rank_image {
+	margin: 0;
 }
 
 /*
