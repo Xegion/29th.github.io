@@ -1955,6 +1955,7 @@ li a:hover:after {
 }
 
 #medal_image_other {
+	margin: 0;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
