@@ -1951,7 +1951,7 @@ li a:hover:after {
 	margin: 0;
 	position: absolute;
 	top: 160px;
-	left: 0;
+	left: 5px;
 }
 
 #medal_image_other {
