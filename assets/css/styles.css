@@ -1944,8 +1944,7 @@ li a:hover:after {
 #bar_image {
 	height: 28px;
 	margin: 0;
-	position: relative;
-	top: 40px;
+	margin-top: 10vh;
 	margin-bottom: 10px;
 }
 
