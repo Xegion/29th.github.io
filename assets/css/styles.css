@@ -1940,6 +1940,10 @@ li a:hover:after {
 	margin: 0;
 }
 
+#bar_image {
+	margin-top: 40px;
+}
+
 /*
 #about_introduction {}
 
