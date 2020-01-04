@@ -1937,6 +1937,7 @@ li a:hover:after {
 }
 
 #medal_image {
+	height: 150px;
 	margin: 0;
 }
 
