@@ -1928,6 +1928,16 @@ li a:hover:after {
 	padding-bottom: 1vh;
 }
 
+#medal_name_identity {
+	font-size: 2vh;
+	color: white;
+	margin: 0;
+	margin-left: 130px;
+	margin-top: -150px;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+
 #medal_name_combat {
 	font-size: 2vh;
 	color: white;
