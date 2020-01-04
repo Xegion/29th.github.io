@@ -1938,10 +1938,11 @@ li a:hover:after {
 
 #medal_image {
 	margin: 0;
+	margin-bottom: 10px;
 }
 
 #bar_image {
-	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 /*
