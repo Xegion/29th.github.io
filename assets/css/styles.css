@@ -1908,6 +1908,12 @@ li a:hover:after {
 	overflow: hidden;
 }
 
+#medal_container_three {
+	position: relative;
+	min-height: 50px;
+	overflow: hidden;
+}
+
 #medal_name {
 	font-size: 2vh;
 	color: white;
