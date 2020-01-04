@@ -1902,6 +1902,11 @@ li a:hover:after {
 	min-height: 200px;
 }
 
+#medal_container_two {
+	position: relative;
+	min-height: 100px;
+}
+
 #medal_name {
 	font-size: 2vh;
 	color: white;
