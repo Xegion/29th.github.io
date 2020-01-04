@@ -1974,6 +1974,7 @@ li a:hover:after {
 	position: absolute;
 	top: 160px;
 	left: 8px;
+	width: 80px;
 }
 
 #medal_image_other {
