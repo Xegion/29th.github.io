@@ -2937,10 +2937,10 @@ footer {
 
 #arma_description_small {
 	height: 75vh;
-	width: 94vw;
+	width: 80vw;
 	background-color: #2b2c28;
 	margin-top: 5vh;
-	margin-left: 3vw;
+	margin-left: 10vw;
 	border-radius: 2vh;
 	overflow: hidden;
 	border: .2vh solid black;
@@ -2950,9 +2950,9 @@ footer {
 
 #rs2_description_small {
 	height: 75vh;
-	width: 94vw;
+	width: 80vw;
 	background-color: #2b2c28;
-	margin-left: 3vw;
+	margin-left: 10vw;
 	border-radius: 2vh;
 	overflow: hidden;
 	border: .2vh solid black;
@@ -2962,9 +2962,9 @@ footer {
 
 #squad_description_small {
 	height: 75vh;
-	width: 94vw;
+	width: 80vw;
 	background-color: #2b2c28;
-	margin-left: 3vw;
+	margin-left: 10vw;
 	border-radius: 2vh;
 	overflow: hidden;
 	border: .2vh solid black;
