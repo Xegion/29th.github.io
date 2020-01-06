@@ -185,79 +185,79 @@ All of our soldiers are trained with their specialty weapon. As we are an Infant
 	</div>
 </div>
 <script>
-if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-	document.getElementById("enlist_button_four").classList.add("selected_three");
-	document.getElementById("enlist_button_five").classList.add("selected_three");
-}
-if (document.documentMode || !/Edge/.test(navigator.userAgent)) {
-	function start_nav() {
-		document.getElementById("enlist_button").classList.add("selected");
-		document.getElementById("enlist_button_two").classList.add("selected");
+	if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+		document.getElementById("enlist_button_four").classList.add("selected_three");
+		document.getElementById("enlist_button_five").classList.add("selected_three");
+	}
+	if (document.documentMode || !/Edge/.test(navigator.userAgent)) {
+		function start_nav() {
+			document.getElementById("enlist_button").classList.add("selected");
+			document.getElementById("enlist_button_two").classList.add("selected");
+			document.getElementById("enlist_button_three").classList.add("selected_mobile");
+			document.getElementById("enlist_button_dropshadow").classList.add("selected");
+			document.getElementById("enlist_button_dropshadow_fix").style.opacity = "1.0";
+			document.getElementById("enlist_button_dropshadow_fix_two").style.opacity = "1.0";
+		}
+		start_nav()
+	} else {
+		document.getElementById("enlist_header").style.textDecoration = "none";
+		document.getElementById("enlist_header").style.color = "rgba(203,209,131,1)";
+		document.getElementById("quote_header").style.textDecoration = "none";
+		document.getElementById("quote_header").style.color = "rgba(203,209,131,1)";
+		document.getElementById("enlist_header_small").style.textDecoration = "none";
+		document.getElementById("enlist_header_small").style.color = "rgba(203,209,131,1)";
+		document.getElementById("enlist_button_four").classList.add("selected_three");
+		document.getElementById("enlist_button_five").classList.add("selected_three");
 		document.getElementById("enlist_button_three").classList.add("selected_mobile");
-		document.getElementById("enlist_button_dropshadow").classList.add("selected");
-		document.getElementById("enlist_button_dropshadow_fix").style.opacity = "1.0";
-		document.getElementById("enlist_button_dropshadow_fix_two").style.opacity = "1.0";
 	}
-	start_nav()
-} else {
-	document.getElementById("enlist_header").style.textDecoration = "none";
-	document.getElementById("enlist_header").style.color = "rgba(203,209,131,1)";
-	document.getElementById("quote_header").style.textDecoration = "none";
-	document.getElementById("quote_header").style.color = "rgba(203,209,131,1)";
-	document.getElementById("enlist_header_small").style.textDecoration = "none";
-	document.getElementById("enlist_header_small").style.color = "rgba(203,209,131,1)";
-	document.getElementById("enlist_button_four").classList.add("selected_three");
-	document.getElementById("enlist_button_five").classList.add("selected_three");
-	document.getElementById("enlist_button_three").classList.add("selected_mobile");
-}
-var slideIndex = 1;
-showSlides(slideIndex);
+	var slideIndex = 1;
+	showSlides(slideIndex);
 
-function plusSlides(n) {
-	showSlides(slideIndex += n);
-}
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
 
-function currentSlide(n) {
-	showSlides(slideIndex = n);
-}
-function showSlides(n) {
-	var i;
-	var slides = document.getElementsByClassName("quotes");
-	var dots = document.getElementsByClassName("dot");
-	if (n > slides.length) {slideIndex = 1}
-	if (n < 1) {slideIndex = slides.length}
-	for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
+	function currentSlide(n) {
+		showSlides(slideIndex = n);
 	}
-	for (i = 0; i < dots.length; i++) {
-		dots[i].className = dots[i].className.replace(" active", "");
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("quotes");
+		var dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " active";
 	}
-	slides[slideIndex-1].style.display = "block";
-	dots[slideIndex-1].className += " active";
-}
-var slideIndexSmall = 1;
-showSlidesSmall(slideIndexSmall);
+	var slideIndexSmall = 1;
+	showSlidesSmall(slideIndexSmall);
 
-function plusSlidesSmall(n) {
-	showSlidesSmall(slideIndexSmall += n);
-}
+	function plusSlidesSmall(n) {
+		showSlidesSmall(slideIndexSmall += n);
+	}
 
-function currentSlideSmall(n) {
-	showSlidesSmall(slideIndexSmall = n);
-}
-function showSlidesSmall(n) {
-	var i;
-	var slidesSmall = document.getElementsByClassName("quotes_small");
-	var dotsSmall = document.getElementsByClassName("dot_small");
-	if (n > slidesSmall.length) {slideIndexSmall = 1}
-	if (n < 1) {slideIndexSmall = slidesSmall.length}
-	for (i = 0; i < slidesSmall.length; i++) {
-		slidesSmall[i].style.display = "none";
+	function currentSlideSmall(n) {
+		showSlidesSmall(slideIndexSmall = n);
 	}
-	for (i = 0; i < dotsSmall.length; i++) {
-		dotsSmall[i].className = dotsSmall[i].className.replace(" active", "");
+	function showSlidesSmall(n) {
+		var i;
+		var slidesSmall = document.getElementsByClassName("quotes_small");
+		var dotsSmall = document.getElementsByClassName("dot_small");
+		if (n > slidesSmall.length) {slideIndexSmall = 1}
+		if (n < 1) {slideIndexSmall = slidesSmall.length}
+		for (i = 0; i < slidesSmall.length; i++) {
+			slidesSmall[i].style.display = "none";
+		}
+		for (i = 0; i < dotsSmall.length; i++) {
+			dotsSmall[i].className = dotsSmall[i].className.replace(" active", "");
+		}
+		slidesSmall[slideIndexSmall-1].style.display = "block";
+		dotsSmall[slideIndexSmall-1].className += " active";
 	}
-	slidesSmall[slideIndexSmall-1].style.display = "block";
-	dotsSmall[slideIndexSmall-1].className += " active";
-}
 </script>
