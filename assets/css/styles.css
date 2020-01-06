@@ -2900,7 +2900,7 @@ footer {
 #civil_announcements_small {
 	background-color: #2b2c28;
 	height: 89vh;
-	min-width: 80vw;
+	width: 80vw;
 	position: absolute;
 	top: 5vh;
 	left: 10vw;
@@ -2915,7 +2915,7 @@ footer {
 #civil_announcements_two_small {
 	background-color: #2b2c28;
 	height: 89vh;
-	min-width: 80vw;
+	width: 80vw;
 	position: absolute;
 	top: 98vh;
 	left: 10vw;
