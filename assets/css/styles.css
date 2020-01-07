@@ -3982,7 +3982,8 @@ q {
 .cl-container {
 	margin-left: 10%;
 	margin-right: 10%;
-	padding-bottom: 4vh;
+	margin-top: 20vh;
+	margin-bottom: 4vh;
 	min-height: 75vh;
 	background-color: #353535;
 }
