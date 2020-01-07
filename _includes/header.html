@@ -196,6 +196,17 @@
 	        }
 	    });
 	});
+	$(document).ready( function() {
+	    $("#header_two").hide();
+	    var topOfOthDiv = $("#changelog_top").offset().top;
+	    $(window).scroll(function() {
+	        if($(window).scrollTop() > topOfOthDiv) {
+				document.getElementById("header_two").style.display = "block";
+			} else {
+				document.getElementById("header_two").style.display = "none";
+	        }
+	    });
+	});
 	window.onscroll = function() {scrollFunction()};
 	function scrollFunction() {
 		if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
