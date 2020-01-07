@@ -4018,8 +4018,25 @@ q {
 	margin-left: 1vw;
 	margin-right: 1vw;
 	width: 98vw;
-	height: 5px;
+	height: 5vh;
 	background-color: #353535;
+	position: relative;
+}
+
+.cl-subheader-left {
+	position: absolute;
+	top: 1vh;
+	left: 2vw;
+	font-size: 2vh;
+	color: white;
+}
+
+.cl-subheader-right {
+	position: absolute;
+	top: 1vh;
+	right: 2vw;
+	font-size: 2vh;
+	color: white;
 }
 
 /*
