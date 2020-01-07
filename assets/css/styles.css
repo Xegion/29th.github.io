@@ -3995,8 +3995,8 @@ q {
 	margin: 0;
 	padding-bottom: 1vh;
 	text-align: center;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
 }
 
 .cl-header:before, .cl-header:after {
