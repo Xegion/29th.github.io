@@ -3985,7 +3985,7 @@ q {
 	margin-top: 20vh;
 	margin-bottom: 4vh;
 	min-height: 75vh;
-	background-color: #353535;
+	background-color: #42443a;
 }
 
 .cl-header {
@@ -4012,6 +4012,14 @@ q {
 .cl-header:before {
     margin-left: -50%;
     text-align: right;
+}
+
+.cl-post {
+	margin-left: 1vw;
+	margin-right: 1vw;
+	width: 98vw;
+	height: 5px;
+	background-color: #353535;
 }
 
 /*
