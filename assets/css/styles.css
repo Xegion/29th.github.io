@@ -4017,7 +4017,7 @@ q {
 .cl-post {
 	margin-left: 1vw;
 	margin-right: 1vw;
-	width: 98vw;
+	width: 98%;
 	height: 5vh;
 	background-color: #353535;
 	position: relative;
@@ -4029,6 +4029,7 @@ q {
 	left: 2vw;
 	font-size: 2vh;
 	color: white;
+	font-weight: 500;
 }
 
 .cl-subheader-right {
@@ -4037,6 +4038,7 @@ q {
 	right: 2vw;
 	font-size: 2vh;
 	color: white;
+	font-weight: 500;
 }
 
 /*
