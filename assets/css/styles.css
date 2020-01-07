@@ -4021,6 +4021,7 @@ q {
 	height: 5vh;
 	background-color: #353535;
 	position: relative;
+	overflow: hidden;
 }
 
 .cl-subheader-left {
@@ -4039,6 +4040,16 @@ q {
 	font-size: 2vh;
 	color: white;
 	font-weight: 500;
+}
+
+.cl-expand-post {
+	position: absolute;
+	width: 100%;
+	height: 5vh;
+}
+
+.cl-expand-post:hover {
+	cursor: pointer;
 }
 
 /*
