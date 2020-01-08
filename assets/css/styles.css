@@ -1995,9 +1995,7 @@ li a:hover:after {
 	padding-bottom: 1vh;
 }
 
-#rank_image {
-	padding-bottom: 2vh;
-}
+#rank_image {}
 
 /*
 #about_introduction {}
