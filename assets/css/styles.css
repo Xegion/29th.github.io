@@ -4021,6 +4021,7 @@ q {
 	height: 5vh;
 	background-color: #353535;
 	position: relative;
+	overflow: hidden;
 }
 
 .cl-subheader-left {
