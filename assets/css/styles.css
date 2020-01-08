@@ -3990,7 +3990,6 @@ q {
 	margin-bottom: 4vh;
 	min-height: 75vh;
 	background-color: #42443a;
-	padding-bottom: 1vh;
 }
 
 .cl-header {
@@ -4027,6 +4026,7 @@ q {
 	background-color: #353535;
 	position: relative;
 	overflow: hidden;
+	margin-bottom: 1vh;
 }
 
 .cl-subheader-left {
