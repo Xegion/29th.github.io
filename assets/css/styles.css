@@ -4057,6 +4057,7 @@ q {
 	border-top: 1px solid grey;
 	width: 98%;
 	margin-left: 1vw;
+	transition: height ease .2s;
 }
 
 /*
