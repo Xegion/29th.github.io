@@ -4053,9 +4053,8 @@ q {
 }
 
 .cl-divider {
-	margin-top: 8vh;
-	height: 1px;
-	background-color: grey;
+	margin-top: 7.5vh;
+	border-top: 1px solid grey;
 	width: 98%;
 	margin-left: 1vw;
 }
