@@ -1997,6 +1997,10 @@ li a:hover:after {
 
 #rank_image {}
 
+#rank_div {
+	padding-bottom: 2vh;
+}
+
 /*
 #about_introduction {}
 
