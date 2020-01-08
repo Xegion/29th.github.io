@@ -9,8 +9,18 @@ title: Changelog
 				<p class="cl-header">&nbsp;Changelog&nbsp;</p>
 				<div id="cl_one" class="cl-post">
 					<p class="cl-subheader-left">1.0.0</p>
-					<p class="cl-subheader-right">+</p>
-					<span class="cl-expand-post" onclick="document.getElementById('cl_one').style.height = '10vh';"></span>
+					<p id="cl_one_open" class="cl-subheader-right">+</p>
+					<p id="cl_one_close" class="cl-subheader-right hidden">-</p>
+					<span id="cl_open_two" class="cl-expand-post" onclick="document.getElementById('cl_one').style.height = '10vh';
+					document.getElementById('cl_one_open').style.display = 'none';
+					document.getElementById('cl_one_close').style.display = 'in-line';
+					document.getElementById('cl_open_two').style.display = 'none';
+					document.getElementById('cl_close_two').style.display = 'block';"></span>
+					<span id="cl_close_two" class="cl-expand-post hidden" onclick="document.getElementById('cl_one').style.height = '10vh';
+					document.getElementById('cl_one_open').style.display = 'none';
+					document.getElementById('cl_one_close').style.display = 'in-line';
+					document.getElementById('cl_open_two').style.display = 'none';
+					document.getElementById('cl_close_two').style.display = 'block';"></span>
 					<div class="cl-divider">
 						<p>Test</p>
 					</div>
