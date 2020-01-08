@@ -1999,6 +1999,7 @@ li a:hover:after {
 
 #rank_div {
 	padding-bottom: 2vh;
+	min-height: 75px;
 }
 
 /*
