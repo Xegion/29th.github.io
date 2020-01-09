@@ -1892,7 +1892,7 @@ li a:hover:after {
 #rank_div {
 	position: relative;
 	padding-bottom: 2vh;
-	min-height: 75px;
+	min-height: 85px;
 }
 
 #rank_name {
