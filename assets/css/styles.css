@@ -1883,17 +1883,17 @@ li a:hover:after {
 	margin: 0;
 }
 
-#rank_image {
-	width: 70px;
-	position: absolute;
-	top: 0;
-}
-
 #rank_div {
 	position: relative;
 	margin-bottom: 2vh;
 	width: 100%;
 	min-height: 120px;
+}
+
+#rank_image {
+	width: 70px;
+	position: absolute;
+	top: 0;
 }
 
 #rank_name {
@@ -1902,7 +1902,7 @@ li a:hover:after {
 	margin: 0;
 	margin-left: 75px;
 	position: absolute;
-	top: 5px;
+	top: 2px;
 }
 
 #rank_desc {
