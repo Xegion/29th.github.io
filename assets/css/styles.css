@@ -1908,8 +1908,6 @@ li a:hover:after {
 	color: white;
 	margin: 0;
 	margin-left: 75px;
-	position: absolute;
-	top: calc(7px + 2vh);
 }
 
 #medal_container {
