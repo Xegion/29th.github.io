@@ -1887,7 +1887,7 @@ li a:hover:after {
 	position: relative;
 	margin-bottom: 2vh;
 	width: 100%;
-	min-height: 75px;
+	min-height: 2vh;
 }
 
 #rank_image {
