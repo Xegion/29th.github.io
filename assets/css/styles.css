@@ -1911,6 +1911,7 @@ li a:hover:after {
 	margin-left: 75px;
 	position: absolute;
 	top: calc(7px + 2vh);
+	min-height: 1vh;
 }
 
 #medal_container {
