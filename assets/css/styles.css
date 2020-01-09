@@ -1892,7 +1892,6 @@ li a:hover:after {
 #rank_div {
 	position: relative;
 	margin-bottom: 2vh;
-	min-height: 75px;
 }
 
 #rank_name {
@@ -1911,7 +1910,6 @@ li a:hover:after {
 	margin-left: 75px;
 	position: absolute;
 	top: calc(7px + 2vh);
-	min-height: 1vh;
 }
 
 #medal_container {
