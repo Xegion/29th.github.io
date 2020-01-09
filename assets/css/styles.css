@@ -1884,10 +1884,10 @@ li a:hover:after {
 }
 
 #rank_div {
-	position: relative;
+	position: absolute;
 	margin-bottom: 2vh;
 	width: 100%;
-	min-height: 2vh;
+	min-height: 75px;
 }
 
 #rank_image {
