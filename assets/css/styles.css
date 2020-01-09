@@ -1890,7 +1890,6 @@ li a:hover:after {
 	margin-left: 75px;
 	position: absolute;
 	top: 5px;
-	padding-bottom: 1vh;
 }
 
 #rank_desc {
@@ -1900,7 +1899,6 @@ li a:hover:after {
 	margin-left: 75px;
 	position: absolute;
 	top: calc(7px + 2vh);
-	padding-bottom: 2vh;
 }
 
 #medal_container {
