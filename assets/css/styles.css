@@ -1886,6 +1886,7 @@ li a:hover:after {
 #rank_div {
 	position: relative;
 	min-height: 75px;
+	margin-bottom: 1vh;
 }
 
 #rank_image {
@@ -1908,7 +1909,7 @@ li a:hover:after {
 	color: white;
 	margin: 0;
 	margin-left: 75px;
-	margin-top: calc(2vh + 3px);
+	margin-top: calc(2vh + 5px);
 }
 
 #medal_container {
