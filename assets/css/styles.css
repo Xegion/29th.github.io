@@ -1884,7 +1884,7 @@ li a:hover:after {
 }
 
 #rank_div {
-	position: absolute;
+	position: relative;
 	margin-bottom: 2vh;
 	width: 100%;
 	min-height: 75px;
