@@ -1883,6 +1883,18 @@ li a:hover:after {
 	margin: 0;
 }
 
+#rank_image {
+	width: 70px;
+	position: absolute;
+	top: 0;
+}
+
+#rank_div {
+	position: relative;
+	padding-bottom: 2vh;
+	min-height: 75px;
+}
+
 #rank_name {
 	font-size: 2vh;
 	color: white;
@@ -1993,16 +2005,6 @@ li a:hover:after {
 	margin: 0;
 	padding-top: 1vh;
 	padding-bottom: 1vh;
-}
-
-#rank_image {
-	width: 70px;
-}
-
-#rank_div {
-	position: relative;
-	padding-bottom: 2vh;
-	min-height: 75px;
 }
 
 /*
