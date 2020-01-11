@@ -1883,6 +1883,10 @@ li a:hover:after {
 	margin: 0;
 }
 
+#about_rules_divider {
+	border: .5px solid white;
+}
+
 #rank_div {
 	position: relative;
 	min-height: 75px;
