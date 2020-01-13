@@ -107,7 +107,28 @@ title: Home
 		</div>
 	</div>
 	<div id="home_middle_bottom">
-		<p id="latest_video_title">Latest YouTube Video</p>
+		<p id="latest_video_title"><span id="latest_video_button" onclick="document.getElementById('youtube_playlist_arma').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_rs2').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_squad').style.backgroundColor = '#222';
+		document.getElementById('default_video').style.display = 'block';
+		document.getElementById('arma_video').style.display = 'none';
+		document.getElementById('rs_video').style.display = 'none';
+		document.getElementById('squad_video').style.display = 'none';
+		document.getElementById('default_video').src += '';
+		document.getElementById('arma_video').src += '';
+		document.getElementById('rs_video').src += '';
+		document.getElementById('squad_video').src += '';
+		document.getElementById('youtube_playlist_arma_two').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_rs2_two').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_squad_two').style.backgroundColor = '#222';
+		document.getElementById('default_video_two').style.display = 'block';
+		document.getElementById('arma_video_two').style.display = 'none';
+		document.getElementById('rs_video_two').style.display = 'none';
+		document.getElementById('squad_video_two').style.display = 'none';
+		document.getElementById('default_video_two').src += '';
+		document.getElementById('arma_video_two').src += '';
+		document.getElementById('rs_video_two').src += '';
+		document.getElementById('squad_video_two').src += '';">Latest YouTube Video</span></p>
 		<p id="channel_notice">We upload to our YouTube channel every Monday and Friday! Come check us out to see how we run our drills and get to know some of our most senior veterans!</p>
 		<div id="latest_video" class="d-none d-sm-none d-md-none d-lg-none d-xl-block">
 			<iframe id="default_video" width="100%" height="100%" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=1&rel=1&listType=user_uploads&list=29thid1" frameborder="0" allowfullscreen></iframe>
