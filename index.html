@@ -37,10 +37,10 @@ title: Home
 			<center>
 				<p id="time_text">Time Converter</p>
 				<div id="est_time">
-					<span class="wtb-ew-v1" style="width: 204px; display:inline-block"><script src="https://www.worldtimebuddy.com/clock_widget.js?h=5&bc=8BA1BB&cn=EST&wt=c1"></script><i><a href="https://www.worldtimebuddy.com/">Time Converter</a></i><noscript><a href="https://www.worldtimebuddy.com/">Time Converter</a></noscript><script>window[wtb_event_widgets.pop()].init()</script></span>
+					<span class="wtb-ew-v1" style="width: 204px; display: inline-block"><script src="https://www.worldtimebuddy.com/clock_widget.js?h=5&bc=8BA1BB&cn=EST&wt=c1"></script><i><a href="https://www.worldtimebuddy.com/">Time Converter</a></i><noscript><a href="https://www.worldtimebuddy.com/">Time Converter</a></noscript><script>window[wtb_event_widgets.pop()].init()</script></span>
 				</div>
 				<div id="gmt_time">
-					<span class="wtb-ew-v1" style="width: 204px; display:inline-block"><script src="https://www.worldtimebuddy.com/clock_widget.js?h=2643743&bc=8BA1BB&cn=GMT&wt=c1"></script><i><a href="https://www.worldtimebuddy.com/">Time Converter</a></i><noscript><a href="https://www.worldtimebuddy.com/">Time Converter</a></noscript><script>window[wtb_event_widgets.pop()].init()</script></span>
+					<span class="wtb-ew-v1" style="width: 204px; display: inline-block"><script src="https://www.worldtimebuddy.com/clock_widget.js?h=2643743&bc=8BA1BB&cn=GMT&wt=c1"></script><i><a href="https://www.worldtimebuddy.com/">Time Converter</a></i><noscript><a href="https://www.worldtimebuddy.com/">Time Converter</a></noscript><script>window[wtb_event_widgets.pop()].init()</script></span>
 				</div>
 				<p id="time_switcher"><a id="est_clicker" onclick="
 				document.getElementById('est_clicker').style.color = 'rgba(203,209,131,1)';
@@ -110,10 +110,94 @@ title: Home
 		<p id="latest_video_title">Latest YouTube Video</p>
 		<p id="channel_notice">We upload to our YouTube channel every Monday and Friday! Come check us out to see how we run our drills and get to know some of our most senior veterans!</p>
 		<div id="latest_video" class="d-none d-sm-none d-md-none d-lg-none d-xl-block">
-			<iframe width="100%" height="100%" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=1&rel=1&listType=user_uploads&list=29thid1" frameborder="0" allowfullscreen></iframe> 
+			<iframe id="default_video" width="100%" height="100%" src="http://www.youtube.com/embed?max-results=1&controls=1&showinfo=1&rel=1&listType=user_uploads&list=29thid1" frameborder="0" allowfullscreen></iframe>
+			<iframe id="arma_video" class="hidden" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLe3Z2wpbiF1rNgRA9QwjfoCrI_N7CNzQj" frameborder="0" allowfullscreen></iframe>
+			<iframe id="rs_video" class="hidden" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLe3Z2wpbiF1oXsW6JTAMk5x1ZHJ1gOx-r" frameborder="0" allowfullscreen></iframe>
+			<iframe id="squad_video" class="hidden" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLe3Z2wpbiF1rJrjHIIcHSOFkXIqRbqM_c" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div id="latest_video_two" class="d-none d-sm-none d-md-block d-lg-block d-xl-none">
-			<iframe width="100%" height="100%" src="https://www.youtube.com/embed?max-results=1&controls=1&showinfo=1&rel=1&listType=user_uploads&list=29thid1" frameborder="0" allowfullscreen></iframe> 
+			<iframe id="default_video_two" width="100%" height="100%" src="http://www.youtube.com/embed?max-results=1&controls=1&showinfo=1&rel=1&listType=user_uploads&list=29thid1" frameborder="0" allowfullscreen></iframe>
+			<iframe id="arma_video_two" class="hidden" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLe3Z2wpbiF1rNgRA9QwjfoCrI_N7CNzQj" frameborder="0" allowfullscreen></iframe>
+			<iframe id="rs_video_two" class="hidden" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLe3Z2wpbiF1oXsW6JTAMk5x1ZHJ1gOx-r" frameborder="0" allowfullscreen></iframe>
+			<iframe id="squad_video_two" class="hidden" width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLe3Z2wpbiF1rJrjHIIcHSOFkXIqRbqM_c" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div id="youtube_playlist_arma" title="Select Playlist" class="d-none d-sm-none d-md-none d-lg-none d-xl-block" onclick="document.getElementById('youtube_playlist_arma').style.backgroundColor = 'rgba(203,209,131,1)';
+		document.getElementById('youtube_playlist_rs2').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_squad').style.backgroundColor = '#222';
+		document.getElementById('default_video').style.display = 'none';
+		document.getElementById('arma_video').style.display = 'block';
+		document.getElementById('rs_video').style.display = 'none';
+		document.getElementById('squad_video').style.display = 'none';
+		document.getElementById('default_video').src += '';
+		document.getElementById('arma_video').src += '';
+		document.getElementById('rs_video').src += '';
+		document.getElementById('squad_video').src += '';">
+			<img id="playlist_link" src="assets/img/arma_logo.png">
+		</div>
+		<div id="youtube_playlist_rs2" title="Select Playlist" class="d-none d-sm-none d-md-none d-lg-none d-xl-block" onclick="document.getElementById('youtube_playlist_arma').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_rs2').style.backgroundColor = 'rgba(203,209,131,1)';
+		document.getElementById('youtube_playlist_squad').style.backgroundColor = '#222';
+		document.getElementById('default_video').style.display = 'none';
+		document.getElementById('arma_video').style.display = 'none';
+		document.getElementById('rs_video').style.display = 'block';
+		document.getElementById('squad_video').style.display = 'none';
+		document.getElementById('default_video').src += '';
+		document.getElementById('arma_video').src += '';
+		document.getElementById('rs_video').src += '';
+		document.getElementById('squad_video').src += '';">
+			<img id="playlist_link" src="assets/img/rs_logo.png">
+		</div>
+		<div id="youtube_playlist_squad" title="Select Playlist" class="d-none d-sm-none d-md-none d-lg-none d-xl-block" onclick="document.getElementById('youtube_playlist_arma').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_rs2').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_squad').style.backgroundColor = 'rgba(203,209,131,1)';
+		document.getElementById('default_video').style.display = 'none';
+		document.getElementById('arma_video').style.display = 'none';
+		document.getElementById('rs_video').style.display = 'none';
+		document.getElementById('squad_video').style.display = 'block';
+		document.getElementById('default_video').src += '';
+		document.getElementById('arma_video').src += '';
+		document.getElementById('rs_video').src += '';
+		document.getElementById('squad_video').src += '';">
+			<img id="playlist_link" src="assets/img/squad_logo.png">
+		<div id="youtube_playlist_arma_two" title="Select Playlist" class="d-none d-sm-none d-md-block d-lg-block d-xl-none" onclick="document.getElementById('youtube_playlist_arma_two').style.backgroundColor = 'rgba(203,209,131,1)';
+		document.getElementById('youtube_playlist_rs2_two').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_squad_two').style.backgroundColor = '#222';
+		document.getElementById('default_video_two').style.display = 'none';
+		document.getElementById('arma_video_two').style.display = 'block';
+		document.getElementById('rs_video_two').style.display = 'none';
+		document.getElementById('squad_video_two').style.display = 'none';
+		document.getElementById('default_video_two').src += '';
+		document.getElementById('arma_video_two').src += '';
+		document.getElementById('rs_video_two').src += '';
+		document.getElementById('squad_video_two').src += '';">
+			<img id="playlist_link_two" src="assets/img/arma_logo.png">
+		</div>
+		<div id="youtube_playlist_rs2_two" title="Select Playlist" class="d-none d-sm-none d-md-block d-lg-block d-xl-none" onclick="document.getElementById('youtube_playlist_arma_two').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_rs2_two').style.backgroundColor = 'rgba(203,209,131,1)';
+		document.getElementById('youtube_playlist_squad_two').style.backgroundColor = '#222';
+		document.getElementById('default_video_two').style.display = 'none';
+		document.getElementById('arma_video_two').style.display = 'none';
+		document.getElementById('rs_video_two').style.display = 'block';
+		document.getElementById('squad_video_two').style.display = 'none';
+		document.getElementById('default_video_two').src += '';
+		document.getElementById('arma_video_two').src += '';
+		document.getElementById('rs_video_two').src += '';
+		document.getElementById('squad_video_two').src += '';">
+			<img id="playlist_link_two" src="assets/img/rs_logo.png">
+		</div>
+		<div id="youtube_playlist_squad_two" title="Select Playlist" class="d-none d-sm-none d-md-block d-lg-block d-xl-none" onclick="
+		document.getElementById('youtube_playlist_arma_two').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_rs2_two').style.backgroundColor = '#222';
+		document.getElementById('youtube_playlist_squad_two').style.backgroundColor = 'rgba(203,209,131,1)';
+		document.getElementById('default_video_two').style.display = 'none';
+		document.getElementById('arma_video_two').style.display = 'none';
+		document.getElementById('rs_video_two').style.display = 'none';
+		document.getElementById('squad_video_two').style.display = 'block';
+		document.getElementById('default_video_two').src += '';
+		document.getElementById('arma_video_two').src += '';
+		document.getElementById('rs_video_two').src += '';
+		document.getElementById('squad_video_two').src += '';">
+			<img id="playlist_link_two" src="assets/img/squad_logo.png">
 		</div>
 	</div>
 	<div id="home_bottom">
