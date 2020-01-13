@@ -2868,6 +2868,94 @@ footer {
 	padding-top: 1.5vh;
 }
 
+#youtube_playlist_arma {
+	position: absolute;
+	top: 88.75vh;
+	left: calc(20% + .55vh);
+	width: calc(60vw / 3);
+	height: 5vh;
+	background-color: #222;
+}
+
+#youtube_playlist_arma:hover {
+	cursor: pointer;
+}
+
+#youtube_playlist_rs2 {
+	position: absolute;
+	top: 88.75vh;
+	left: calc(20% + 60vw / 3 + .5vh);
+	width: calc(60vw / 3);
+	height: 5vh;
+	background-color: #222;
+}
+
+#youtube_playlist_rs2:hover {
+	cursor: pointer;
+}
+
+#youtube_playlist_squad {
+	position: absolute;
+	top: 88.75vh;
+	left: calc(20% + 60vw / 3 * 2 + .5vh);
+	width: calc(60vw / 3);
+	height: 5vh;
+	background-color: #222;
+}
+
+#youtube_playlist_squad:hover {
+	cursor: pointer;
+}
+
+#youtube_playlist_arma_two {
+	position: absolute;
+	top: 88.65vh;
+	left: calc(5%);
+	width: calc(90vw / 3);
+	height: 5vh;
+	background-color: #222;
+}
+
+#youtube_playlist_arma_two:hover {
+	cursor: pointer;
+}
+
+#youtube_playlist_rs2_two {
+	position: absolute;
+	top: 88.65vh;
+	left: calc(5% + 90vw / 3);
+	width: calc(90vw / 3);
+	height: 5vh;
+	background-color: #222;
+}
+
+#youtube_playlist_rs2_two:hover {
+	cursor: pointer;
+}
+
+#youtube_playlist_squad_two {
+	position: absolute;
+	top: 88.65vh;
+	left: calc(5% + 90vw / 3 * 2);
+	width: calc(90vw / 3);
+	height: 5vh;
+	background-color: #222;
+}
+
+#youtube_playlist_squad_two:hover {
+	cursor: pointer;
+}
+
+#playlist_link {
+	height: 5vh;
+	margin-left: calc(50% - 2.5vw);
+}
+
+#playlist_link_two {
+	height: 5vh;
+	margin-left: calc(45% - 2.5vw);
+}
+
 #channel_button_small {
 	background-color: rgba(203,209,131,1);
 	position: absolute;
