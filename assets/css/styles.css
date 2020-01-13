@@ -923,6 +923,7 @@ li a:hover:after {
 
 #latest_video_button:hover {
 	cursor: pointer;
+	user-select: none;
 }
 
 #latest_video {
