@@ -2880,6 +2880,7 @@ footer {
 	width: calc(60vw / 3);
 	height: 5vh;
 	background-color: #222;
+	user-select: none;
 }
 
 #youtube_playlist_arma:hover {
@@ -2893,6 +2894,7 @@ footer {
 	width: calc(60vw / 3);
 	height: 5vh;
 	background-color: #222;
+	user-select: none;
 }
 
 #youtube_playlist_rs2:hover {
@@ -2906,6 +2908,7 @@ footer {
 	width: calc(60vw / 3);
 	height: 5vh;
 	background-color: #222;
+	user-select: none;
 }
 
 #youtube_playlist_squad:hover {
@@ -2919,6 +2922,7 @@ footer {
 	width: calc(90vw / 3);
 	height: 5vh;
 	background-color: #222;
+	user-select: none;
 }
 
 #youtube_playlist_arma_two:hover {
@@ -2932,6 +2936,7 @@ footer {
 	width: calc(90vw / 3);
 	height: 5vh;
 	background-color: #222;
+	user-select: none;
 }
 
 #youtube_playlist_rs2_two:hover {
@@ -2945,6 +2950,7 @@ footer {
 	width: calc(90vw / 3);
 	height: 5vh;
 	background-color: #222;
+	user-select: none;
 }
 
 #youtube_playlist_squad_two:hover {
