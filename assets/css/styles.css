@@ -921,6 +921,10 @@ li a:hover:after {
 	text-underline-position: under;
 }
 
+#latest_video_button:hover {
+	cursor: pointer;
+}
+
 #latest_video {
 	position: absolute;
 	overflow-y: hidden;
