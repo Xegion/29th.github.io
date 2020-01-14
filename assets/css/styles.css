@@ -2897,7 +2897,7 @@ footer {
 	position: absolute;
 	top: 88.75vh;
 	left: calc(20% + 60vw / 3 + .25vh);
-	width: calc(60vw / 3);
+	width: calc(60vw / 3 + .25vh);
 	height: 5vh;
 	background-color: #222;
 	user-select: none;
