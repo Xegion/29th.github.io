@@ -2882,7 +2882,7 @@ footer {
 #youtube_playlist_arma {
 	position: absolute;
 	top: 88.75vh;
-	left: calc(20% + .55vh);
+	left: calc(20% + .5vh);
 	width: calc(60vw / 3);
 	height: 5vh;
 	background-color: #222;
