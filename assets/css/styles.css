@@ -2896,7 +2896,7 @@ footer {
 #youtube_playlist_rs2 {
 	position: absolute;
 	top: 88.75vh;
-	left: calc(20% + 60vw / 3 + .5vh);
+	left: calc(20% + 60vw / 3 + .25vh);
 	width: calc(60vw / 3);
 	height: 5vh;
 	background-color: #222;
