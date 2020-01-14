@@ -2883,7 +2883,7 @@ footer {
 	position: absolute;
 	top: 88.75vh;
 	left: calc(20% + .25vh);
-	width: calc(60vw / 3);
+	width: calc(60vw / 3 - 2px);
 	height: 5vh;
 	background-color: #222;
 	user-select: none;
@@ -2897,7 +2897,7 @@ footer {
 	position: absolute;
 	top: 88.75vh;
 	left: calc(20% + 60vw / 3 + .25vh);
-	width: calc(60vw / 3 + .25vh);
+	width: calc(60vw / 3 + .25vh - 2px);
 	height: 5vh;
 	background-color: #222;
 	user-select: none;
@@ -2925,7 +2925,7 @@ footer {
 	position: absolute;
 	top: 88.65vh;
 	left: calc(5%);
-	width: calc(90vw / 3);
+	width: calc(90vw / 3 - 2px);
 	height: 5vh;
 	background-color: #222;
 	user-select: none;
@@ -2939,7 +2939,7 @@ footer {
 	position: absolute;
 	top: 88.65vh;
 	left: calc(5% + 90vw / 3);
-	width: calc(90vw / 3 + .25vh);
+	width: calc(90vw / 3 - 2px);
 	height: 5vh;
 	background-color: #222;
 	user-select: none;
