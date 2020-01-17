@@ -498,7 +498,6 @@ li a:hover:after {
 	text-decoration: none;  
 	display: inline-block;
 	position: relative;
-	line-height: 3.1vh;
 }
 
 #edge_compat_four li a:after {    
@@ -556,7 +555,6 @@ li a:hover:after {
 	text-decoration: none;  
 	display: inline-block;
 	position: relative;
-	line-height: 3.1vh;
 }
 
 #edge_compat li a:after {    
