@@ -94,9 +94,13 @@
 	<a id="twitch_link" title="Twitch" href="https://www.twitch.tv/29thinfantrydivision" target="_blank"><span class="fa fa-twitch"></span></a>
 	<a id="about_link" title="Information" onclick="document.getElementById('stats_info_popup').style.display = 'block'; document.getElementById('popup_blur').style.display = 'block';" target="_blank"><span class="fa fa-info"></span></a>
 </div>
-<!--
 <script>
-	fetch('https://api.29th.org/units/Bn?children=true&members=true&flat=true&distinct=true')
+	fetch('https://cors-anywhere.herokuapp.com/https://api.29th.org/units/Bn?children=true&members=true&flat=true&distinct=true', {
+        method: 'GET',
+        headers: {
+            'origin': 'anonymous'
+        }
+    })
     .then(response => {
         return response.json();
     })
@@ -114,13 +118,12 @@
         console.log(err.message);
     });
 </script>
--->
 <span class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
 	<span id="popup_blur">
 	</span>
 	<div id="stats_info_popup" class="animated zoomIn">
 		<p id="steam_group_members_title">Personnel</p>
-		<p id="steam_group_members"><span data-purecounter-start="0" data-purecounter-end="400" class="purecounter">0</span>+</p>
+		<p id="steam_group_members"></p>
 		<p id="personnel_title">Registered</p>
 		<p id="personnel_count"><span data-purecounter-start="0" data-purecounter-end="20000" class="purecounter">0</span>+</p>
 		<p id="about_popup_title"><b>Information</b></p>
