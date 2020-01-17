@@ -474,6 +474,12 @@ li a:hover:after {
 	line-height: 3.05vh;
 }
 
+@media (max-width: 1024px) {
+	#edge_compat_four li {
+		line-height: 3.1vh;
+	}
+}
+
 #edge_compat_four li a {
 	display: block;
 	color: white;
@@ -529,6 +535,12 @@ li a:hover:after {
 #edge_compat li {
 	float: left;
 	line-height: 3.05vh;
+}
+
+@media (max-width: 1024px) {
+	#edge_compat li {
+		line-height: 3.1vh;
+	}
 }
 
 #edge_compat li a {
