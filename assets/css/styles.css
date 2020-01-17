@@ -471,6 +471,7 @@ li a:hover:after {
 
 #edge_compat_four li {
 	float: left;
+	line-height: 3.1vh;
 }
 
 #edge_compat_four li a {
@@ -484,7 +485,6 @@ li a:hover:after {
 	padding-right: .75vw;
 	transition: color 1s ease;
 	text-shadow: 2px 2px black;
-	line-height: 3.1vh;
 }
 
 #edge_compat_four li a:hover {
@@ -528,6 +528,7 @@ li a:hover:after {
 
 #edge_compat li {
 	float: left;
+	line-height: 3.1vh;
 }
 
 #edge_compat li a {
@@ -541,7 +542,6 @@ li a:hover:after {
 	padding-right: .75vw;
 	transition: color 1s ease;
 	text-shadow: 2px 2px black;
-	line-height: 3.1vh;
 }
 
 #edge_compat li a:hover {
