@@ -750,6 +750,22 @@ li a:hover:after {
 	cursor: pointer;
 }
 
+#down_arrow_small {
+	font-size: 4vh;
+	color: white;
+	width: 4vh;
+	left: calc(50vw - 1vh);
+	position: absolute;
+	bottom: 1vh;
+	transition: margin-bottom 0.5s ease;
+}
+
+#down_arrow_small:hover {
+	margin-bottom: 3vh;
+	transition: margin-bottom 0.5s ease;
+	cursor: pointer;
+}
+
 #home_middle {
 	position: absolute;
 	top: 100vh;
