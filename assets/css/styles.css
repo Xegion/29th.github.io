@@ -754,7 +754,7 @@ li a:hover:after {
 	font-size: 4vh;
 	color: white;
 	width: 4vh;
-	left: calc(50vw - 1vh);
+	left: calc(50vw - 1.5vh);
 	position: absolute;
 	bottom: 1vh;
 	transition: margin-bottom 0.5s ease;
