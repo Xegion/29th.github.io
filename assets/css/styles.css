@@ -648,6 +648,7 @@ li a:hover:after {
 	background-color: #2b2c28;
 	overflow-y: hidden;
 	clip-path: polygon(100% 85%, 50% 100%, 0 85%, 0 0, 55% 0, 100% 0);
+	-webkit-clip-path: polygon(100% 85%, 50% 100%, 0 85%, 0 0, 55% 0, 100% 0);
 }
 
 #home_top {
@@ -658,6 +659,7 @@ li a:hover:after {
 	background-color: #565A42;
 	overflow-y: hidden;
 	clip-path: polygon(100% 85%, 50% 100%, 0 85%, 0 0, 55% 0, 100% 0);
+	-webkit-clip-path: polygon(100% 85%, 50% 100%, 0 85%, 0 0, 55% 0, 100% 0);
 }
 
 #home_text {
