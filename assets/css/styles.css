@@ -1450,6 +1450,7 @@ li a:hover:after {
 	background-color: #565A42;
 	overflow-y: hidden;
 	clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
+	-webkit-clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
 	background-image: url('https://i.imgur.com/PDdEtRO.jpg');
 	background-size: cover;
 }
@@ -2099,6 +2100,7 @@ li a:hover:after {
 	background-color: #565A42;
 	overflow-y: hidden;
 	clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
+	-webkit-clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
 	background-image: url('https://i.imgur.com/PDdEtRO.jpg');
 	background-size: cover;
 }
@@ -2227,6 +2229,7 @@ li a:hover:after {
 	background-color: #565A42;
 	overflow-y: hidden;
 	clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
+	-webkit-clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
 	background-image: url('https://i.imgur.com/PDdEtRO.jpg');
 	background-size: cover;
 }
@@ -2425,6 +2428,7 @@ li a:hover:after {
 	background-color: #565A42;
 	overflow-y: hidden;
 	clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
+	-webkit-clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
 	background-image: url('https://i.imgur.com/PDdEtRO.jpg');
 	background-size: cover;
 }
@@ -4038,6 +4042,7 @@ q {
 	background-color: #565A42;
 	overflow-y: hidden;
 	clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
+	-webkit-clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
 	background-image: url('https://i.imgur.com/PDdEtRO.jpg');
 	background-size: cover;
 }
@@ -4113,6 +4118,7 @@ q {
 	background-color: #565A42;
 	overflow-y: hidden;
 	clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
+	-webkit-clip-path: polygon(100% 70%, 50% 100%, 0 70%, 0 0, 55% 0, 100% 0);
 	background-image: url('https://i.imgur.com/PDdEtRO.jpg');
 	background-size: cover;
 }
