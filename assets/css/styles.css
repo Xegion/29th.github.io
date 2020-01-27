@@ -142,6 +142,17 @@
 	text-decoration: none;
 }
 
+.cl-container a {
+	color: #00BFFF;
+	transition: color 1s ease;
+}
+
+.cl-container a:hover {
+	color: #1E90FF;
+	transition: color 1s ease;
+	text-decoration: none;
+}
+
 #TopBtn {
 	display: none;
 	position: fixed;
