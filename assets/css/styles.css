@@ -1936,6 +1936,12 @@ li a:hover:after {
 	border: .5px dashed white;
 }
 
+#about_rules_divider_two {
+	border: .5px dashed white;
+	margin-left: 2vh;
+	margin-right: 2vh;
+}
+
 #rank_div {
 	position: relative;
 	min-height: 75px;
