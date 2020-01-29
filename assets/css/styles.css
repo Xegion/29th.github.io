@@ -737,9 +737,9 @@ li a:hover:after {
 
 #home_sub_text:before, #home_sub_text:after {
     position: absolute;
-    top: 40%;
+    top: 45%;
     overflow: hidden;
-    width: 6vh;
+    width: 18vh;
     height: .25vh;
     content: '\a0';
     background-color: rgba(203,209,131,1);
