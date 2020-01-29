@@ -4300,13 +4300,13 @@ q {
 .board-contact {
 	border-radius: 4px;
 	color: white;
-	width: 2vh;
+	width: 4vh;
 	background-color: grey;
 	text-align: center;
 	transition: background-color ease .2s;
 }
 
-.board-contacthover {
+.board-contact:hover {
 	background-color: darkgrey;
 	transition: background-color ease .2s;
 }
