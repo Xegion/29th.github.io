@@ -4291,7 +4291,7 @@ q {
 }
 
 .profile-contact:hover {
-	background-color: darlgrey;
+	background-color: darkgrey;
 	transition: background-color ease .2s;
 }
 
