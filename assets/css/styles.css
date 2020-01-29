@@ -4272,11 +4272,13 @@ q {
 .steam-contact {
 	width: 5vw;
 	background-color: limegreen;
+	text-align: center;
 }
 
 .profile-contact {
 	width: 5vw;
 	background-color: lightgrey;
+	text-align: center;
 }
 
 /*
