@@ -601,16 +601,17 @@ li a:hover:after {
 }
 */
 
-#edge_compat li a:after {
-  	display:block;
-  	content: '';
-  	border-bottom: .225vh solid rgba(203,209,131,1);
-  	transform: scaleX(0);  
-  	transition: transform 250ms ease-in-out;
+#edge_compat li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: .225vh;
+    background: rgba(203,209,131,1);
+    transition: width .3s;
 }
 
-#edge_compat li a:hover:after { 
-	transform: scaleX(1); 
+#edge_compat li a:hover::after {
+    width: 100%;
 }
 
 .selected {
