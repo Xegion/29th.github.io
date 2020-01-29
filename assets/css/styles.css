@@ -4270,6 +4270,7 @@ q {
 }
 
 .steam-contact {
+	border-radius: 4px;
 	color: white;
 	width: 5vw;
 	background-color: limegreen;
@@ -4278,11 +4279,12 @@ q {
 }
 
 .steam-contact:hover {
-	background-color: green;
+	background-color: lawngreen;
 	transition: background-color ease .2s;
 }
 
 .profile-contact {
+	border-radius: 4px;
 	color: white;
 	width: 5vw;
 	background-color: grey;
