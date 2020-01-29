@@ -727,7 +727,8 @@ li a:hover:after {
 	border-right: .15em solid transparent;
 	white-space: nowrap;
 	margin-top: 3px;
-	margin-left: 3px;
+	margin-left: calc(50vw - 6vh);
+	margin-right: calc(50vw - 6vh);
 	letter-spacing: .15em;
 	text-shadow: 2px 2px black;
 	/*animation: 
