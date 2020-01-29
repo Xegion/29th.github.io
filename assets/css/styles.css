@@ -4297,6 +4297,20 @@ q {
 	transition: background-color ease .2s;
 }
 
+.board-contact {
+	border-radius: 4px;
+	color: white;
+	width: 2vh;
+	background-color: grey;
+	text-align: center;
+	transition: background-color ease .2s;
+}
+
+.board-contacthover {
+	background-color: darkgrey;
+	transition: background-color ease .2s;
+}
+
 /*
 		..........................................----..--..................................................
 		..................................----...--.--:--:--....--/o/.......................................
