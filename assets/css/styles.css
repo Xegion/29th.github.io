@@ -736,7 +736,7 @@ li a:hover:after {
 
 #home_sub_text:after,
 #home_sub_text:before{
-    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
     text-decoration:line-through;
     color: rgba(203,209,131,1);
 }
