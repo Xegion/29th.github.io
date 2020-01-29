@@ -4270,15 +4270,29 @@ q {
 }
 
 .steam-contact {
+	color: white;
 	width: 5vw;
 	background-color: limegreen;
 	text-align: center;
+	transition: background-color ease .2s;
+}
+
+.steam-contact:hover {
+	background-color: green;
+	transition: background-color ease .2s;
 }
 
 .profile-contact {
+	color: white;
 	width: 5vw;
-	background-color: lightgrey;
+	background-color: grey;
 	text-align: center;
+	transition: background-color ease .2s;
+}
+
+.profile-contact:hover {
+	background-color: darlgrey;
+	transition: background-color ease .2s;
 }
 
 /*
