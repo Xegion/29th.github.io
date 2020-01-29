@@ -678,7 +678,7 @@ li a:hover:after {
 	color: white;
 	font-size: 5vw;
 	position: absolute;
-	top: calc(52.5vh - 7vw);
+	top: calc(52.5vh - 6vw);
 	width: 100%;
 	text-align: center;
 	overflow: hidden;
