@@ -595,8 +595,22 @@ li a:hover:after {
 	margin-right: .75vw;
 }
 
+/*
 #edge_compat li a:hover {
 	border-bottom: .225vh solid rgba(203,209,131,1);
+}
+*/
+
+#edge_compat li a:after {
+  display:block;
+  content: '';
+  border-bottom: .225vh solid rgba(203,209,131,1);
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+#edge_compat li a:hover:after { 
+	transform: scaleX(1); 
 }
 
 .selected {
