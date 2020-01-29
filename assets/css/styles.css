@@ -739,7 +739,7 @@ li a:hover:after {
     position: absolute;
     top: 45%;
     overflow: hidden;
-    width: 18vh;
+    width: 14vh;
     height: .25vh;
     content: '\a0';
     background-color: rgba(203,209,131,1);
