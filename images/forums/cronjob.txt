@@ -1,0 +1,1 @@
+php -q /home/primese1/public_html/inc/query.php >/home/primese1/public/inc/stdoutx.txt
