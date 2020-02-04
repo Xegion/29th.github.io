@@ -651,11 +651,13 @@ li a:hover:after {
 	overflow: hidden;
 }
 
+/*
 .selected_three:hover {
 	border-bottom: .225vh solid rgba(203,209,131,1);
 	height: 6.25vh;
 	overflow: hidden;
 }
+*/
 
 #slideshow {
 	width: 100%;
