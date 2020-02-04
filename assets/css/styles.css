@@ -560,7 +560,7 @@ li a:hover:after {
 	font-size: 2vh;
 	text-align: center;
 	padding-top: 2vh;
-	/*padding-bottom: 1vh;*/
+	padding-bottom: 0vh;
 	padding-left: .75vw;
 	padding-right: .75vw;
 	transition: color 1s ease;
