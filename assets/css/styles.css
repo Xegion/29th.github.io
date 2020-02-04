@@ -651,26 +651,10 @@ li a:hover:after {
 	overflow: hidden;
 }
 
-/*
 .selected_three:hover {
 	border-bottom: .225vh solid rgba(203,209,131,1);
 	height: 6.25vh;
 	overflow: hidden;
-}
-*/
-
-.selected_three li:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 0.225vh;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-.selected_three li:hover:after {
-    width: 100%;
-    background: rgba(203,209,131,1);
 }
 
 #slideshow {
