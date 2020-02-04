@@ -497,7 +497,7 @@ li a:hover:after {
 	font-size: 2vh;
 	text-align: center;
 	padding-top: 2vh;
-	padding-bottom: 1vh;
+	padding-bottom: 0vh;
 	padding-left: .75vw;
 	padding-right: .75vw;
 	transition: color 1s ease;
@@ -532,15 +532,32 @@ li a:hover:after {
 	margin-right: .75vw;
 }
 
+/*
 #edge_compat_four li a:hover {
 	border-bottom: .225vh solid rgba(203,209,131,1);
 }
+*/
 
 #edge_compat_four ul {
 	list-style-type: none;
 	position: absolute;
 	top: .5vh;
 	left: calc(14vw + 6vh);
+}
+
+#edge_compat_four li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 0.225vh;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+#edge_compat_four li:hover:after {
+    width: 100%;
+    background: rgba(203,209,131,1);
 }
 
 #edge_compat li {
