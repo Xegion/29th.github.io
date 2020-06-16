@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-md-3">
+    <nav class="nav flex-column nav-pills">
+      {% for item in site.menus.about %}
+        {% if item.link == page.url %}
+          <a class="nav-link active" href="{{ item.link }}">{{ item.text }}</a>
+        {% else %}
+          <a class="nav-link" href="{{ item.link }}">{{ item.text }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="col-md-9">
+    {{ content }}
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>29th Infantry Division - A realism unit</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed&display=swap" rel="stylesheet"> 
+    <link href="{{ 'assets/stylesheets/styles.css' | relative_url }}" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      {% include navbar.html %}
+    </header>
+
+    <section>
+      {% include hero.html %}
+    </section>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    </div>
+  </body>
+</html>

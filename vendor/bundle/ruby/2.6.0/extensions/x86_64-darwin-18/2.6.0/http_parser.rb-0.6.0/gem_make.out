@@ -1,0 +1,16 @@
+current directory: /Users/timwis/sites/29th.org/old/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/Users/timwis/.rbenv/versions/2.6.5/bin/ruby -I /Users/timwis/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20191130-40299-179q02j.rb extconf.rb
+creating Makefile
+
+current directory: /Users/timwis/sites/29th.org/old/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/timwis/sites/29th.org/old/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/timwis/sites/29th.org/old/vendor/bundle/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20191130-40299-4w92hz

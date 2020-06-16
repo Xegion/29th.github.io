@@ -1,0 +1,26 @@
+<div class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active hero-{{ page.hero_size | default: 'small' }}"
+      style="background-image: url({{ page.hero_image | default: site.default_hero_image }})">
+      <div class="container">
+        <div class="carousel-caption text-left">
+          <h1>{{ page.title }}</h1>
+
+          {% if page.subtitle %}
+            <p>{{ page.subtitle }}</p>
+          {% endif %}
+
+          {% if page.calls_to_action %}
+            <p>
+            {% for cta in page.calls_to_action %}
+              <a class="btn btn-lg btn-{{ cta.type | default: 'link' }}" href="{{ cta.link }}" role="button">
+              {{ cta.text }}
+              </a>
+            {% endfor %}
+            </p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
